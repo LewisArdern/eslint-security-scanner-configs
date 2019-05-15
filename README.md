@@ -10,7 +10,7 @@ npm i eslint eslint-plugin-scanjs-rules eslint-plugin-no-unsanitized
 ```
 Run the folowing command 
 ```
-$ node node_modules\eslint\bin\eslint.js -c example-config.js demo.js
+node node_modules\eslint\bin\eslint.js -c example-config.js demo.js
 ```
 
 ## After Completion 
