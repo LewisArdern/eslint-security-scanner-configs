@@ -8,7 +8,7 @@ git clone https://github.com//LewisArdern/eslint-security-scanner-configs
 cd eslint-security-scanner-configs
 npm i eslint eslint-plugin-scanjs-rules eslint-plugin-no-unsanitized 
 ```
-Run the folowing command 
+Run the following command 
 ```
 node node_modules\eslint\bin\eslint.js -c example-config.js demo.js
 ```
