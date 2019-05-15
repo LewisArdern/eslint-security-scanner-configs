@@ -6,8 +6,7 @@ module.exports = {
   "plugins" : [
     // Standard Rules
     "scanjs-rules",
-    "no-unsanitized",
-    "prototype-pollution-security-rules"
+    "no-unsanitized"
   ],
   "rules" : {
     /** useful rules from eslint **/
