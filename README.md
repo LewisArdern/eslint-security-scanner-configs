@@ -4,18 +4,13 @@ This project contains config files to turn ESLint into a mini Security Scanner f
 ## Installation
 ```
 install npm - https://nodejs.org/en/
-npm i -g eslint eslint-plugin-scanjs-rules eslint-plugin-no-unsanitized 
 git clone https://github.com//LewisArdern/eslint-security-scanner-configs
+cd eslint-security-scanner-configs
+npm i eslint eslint-plugin-scanjs-rules eslint-plugin-no-unsanitized 
 ```
 Run the folowing command 
 ```
 $ eslint -c example-config.js demo.js
-```
-
-## Usage 
-```
-cd eslint-security-scanner-configs
-eslint -c eslintrc-light.js ./myjavascript.js
 ```
 
 
